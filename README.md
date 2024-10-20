@@ -38,7 +38,7 @@ You can navigate through the files and folders as mentioned in below guidelines:
 
 
 
-## Requirements & Workflow
+## Requirements
 
 If you want to explore the working principles or my workflow to train the model. For that, ensure you have the following installed:
 
@@ -49,9 +49,7 @@ If you want to explore the working principles or my workflow to train the model.
 - Joblib
 - NumPy
 
-### Virtualenv + Required Packages
-
-It is recommended to use a virtual environment to manage dependencies.
+Virtualenv is recommended to use a virtual environment to manage dependencies.
 
 1. **Create a virtual environment**:
    ```bash
@@ -73,7 +71,7 @@ It is recommended to use a virtual environment to manage dependencies.
    pip install -r requirements.txt
    ```
 
-### Workflow
+## Workflow
 
 1. **Run "captured_frames.py"**
    ```bash
