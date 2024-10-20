@@ -12,6 +12,8 @@ Each and every required files and folders while training the SVM Classifier with
 
 ## How I Trained the Model
 
+You can navigate through the files and folders as mentioned in below guidelines:
+
                                  Video_files(tiger,cow,ok,bull)
                                              |
                                              |
@@ -36,9 +38,20 @@ Each and every required files and folders while training the SVM Classifier with
 
 
 
-## Requirements
+## Requirements & Workflow
 
-It is recommended to use a virtual environment to manage dependencies. Follow these steps:
+If you want to explore the working principles or my workflow to train the model. For that, ensure you have the following installed:
+
+- Python 3.x
+- OpenCV
+- Mediapipe
+- Scikit-learn
+- Joblib
+- NumPy
+
+### Virtualenv + Required Packages
+
+It is recommended to use a virtual environment to manage dependencies.
 
 1. **Create a virtual environment**:
    ```bash
@@ -58,6 +71,28 @@ It is recommended to use a virtual environment to manage dependencies. Follow th
 
    ```bash
    pip install -r requirements.txt
+   ```
+
+### Workflow
+
+1. **Run "captured_frames.py"**
+   ```bash
+   Python captured_frames.py
+   ```
+
+2. **Run "Mediapipe.py"**
+   ```bash
+   Python Mediapipe.py
+   ```
+
+3. **Run "Annonated_frames.py"**
+   ```bash
+   Python Annonated_frames.py
+   ```
+
+4. **Run "train_model.py"**
+    ```bash
+   Python train_model.py
    ```
 
 
