@@ -57,10 +57,12 @@ Virtualenv is recommended to use a virtual environment to manage dependencies.
    ```
 2. **Activate Virtual Envioronment**
 - On Windows
+  
    ```bash
    venv\Scripts\activate
    ```
 - On MacOS/Linux
+  
     ```bash
    venv\bin\activate
    ```
@@ -76,29 +78,37 @@ Virtualenv is recommended to use a virtual environment to manage dependencies.
 
 
 1. **Run "captured_frames.py"**
+   
    ```bash
    Python captured_frames.py
    ```
    - video files from "/video_files" are converted to the frames in "Captured_frames"
 
-2. **Run "Mediapipe.py"**
+
+3. **Run "Mediapipe.py"**
+   
    ```bash
    Python Mediapipe.py
    ```
    - frames from "Captured_frames" are preprocessed with Mediapipe hand detection module, and landmarks are saved in "npy_files"
 
-3. **Run "Annonated_frames.py"**
+
+5. **Run "Annonated_frames.py"**
+   
    ```bash
    Python Annonated_frames.py
    ```
    - "npy_files" are annonated with "Captured_frames" and saved in "Annonated_frames"
 
-4. **Run "train_model.py"**
+
+7. **Run "train_model.py"**
+   
     ```bash
    Python train_model.py
    ```
     - SVM Classifier is trained with "npy_files" with proper labeling and saved in "Trained_model"
 
+   
 
 
 ## Contributing
