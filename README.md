@@ -10,32 +10,6 @@ Each and every required files and folders while training the SVM Classifier with
 - "video_files" ------> ".mp4" -------> "open-cv && Mediapipe" -------> hand_landmarks
 
 
-## Requirements
-
-It is recommended to use a virtual environment to manage dependencies. Follow these steps:
-
-1. **Create a virtual environment**:
-   ```bash
-   python -m venv venv
-   ```
-2. **Activate Virtual Envioronment**
-- On Windows
-   ```bash
-   venv\Scripts\activate
-   ```
-- On MacOS/Linux
-    ```bash
-   venv\bin\activate
-   ```
-
-3. **Install the Required Packages**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-
-
 ## How I Trained the Model
 
                                  Video_files(tiger,cow,ok,bull)
@@ -59,6 +33,32 @@ It is recommended to use a virtual environment to manage dependencies. Follow th
                                                                               |
                                                                               +
                                                                         /Trained_model
+
+
+
+## Requirements
+
+It is recommended to use a virtual environment to manage dependencies. Follow these steps:
+
+1. **Create a virtual environment**:
+   ```bash
+   python -m venv venv
+   ```
+2. **Activate Virtual Envioronment**
+- On Windows
+   ```bash
+   venv\Scripts\activate
+   ```
+- On MacOS/Linux
+    ```bash
+   venv\bin\activate
+   ```
+
+3. **Install the Required Packages**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 
 
