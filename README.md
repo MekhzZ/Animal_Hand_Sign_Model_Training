@@ -8,7 +8,7 @@ Each and every required files and folders while training the SVM Classifier with
 ## Dataset
 
 - "video_files" ------> ".mp4" -------> "open-cv && Mediapipe" -------> hand_landmarks
-- Since, it is for experiment. I have a smaller number of dataset.
+- Since it is for experiment, I have a smaller number of dataset that has sample videos taken in bright light.
 
 
 ## How I Trained the Model
