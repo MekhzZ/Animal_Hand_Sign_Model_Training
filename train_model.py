@@ -56,10 +56,10 @@ print(f"Accuracy: {accuracy}")
 
 
 # Save the model to a file
-joblib.dump(svm_classifier, (os.path.join(current_dir,'svm_animal_sign_model.pkl')))
+joblib.dump(svm_classifier, (os.path.join(current_dir,'Trained_model/svm_animal_sign_model.pkl')))
 
 # Save the label encoder and scaler as well
-joblib.dump(label_encoder, (os.path.join(current_dir,'animal_label_encoder.pkl')))
-joblib.dump(scaler, (os.path.join(current_dir,'animal_scaler.pkl')))
+joblib.dump(label_encoder, (os.path.join(current_dir,'Trained_model/animal_label_encoder.pkl')))
+joblib.dump(scaler, (os.path.join(current_dir,'Trained_model/animal_scaler.pkl')))
 
 print("Model and encoders saved successfully.")
